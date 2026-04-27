@@ -10,16 +10,16 @@ importers:
     dependencies:
       '@hono/node-server':
         specifier: ^1.19.2
-        version: 1.19.2(hono@4.9.7)
+        version: 1.19.2(hono@4.12.14)
       '@hono/swagger-ui':
         specifier: ^0.5.2
-        version: 0.5.2(hono@4.9.7)
+        version: 0.5.2(hono@4.12.14)
       '@hono/zod-openapi':
         specifier: ^1.1.0
-        version: 1.1.0(hono@4.9.7)(zod@4.1.8)
+        version: 1.1.0(hono@4.12.14)(zod@4.1.8)
       hono:
-        specifier: ^4.9.7
-        version: 4.9.7
+        specifier: ^4.12.14
+        version: 4.12.14
       pino:
         specifier: ^9.9.5
         version: 9.9.5
@@ -694,8 +694,8 @@ packages:
   help-me@5.0.0:
     resolution: {integrity: sha512-7xgomUX6ADmcYzFik0HzAxh/73YlKR9bmFzf51CZwR+b6YtzU2m0u49hQCqV6SvlqIqsaxovfwdvbnsw3b/zpg==}
 
-  hono@4.9.7:
-    resolution: {integrity: sha512-t4Te6ERzIaC48W3x4hJmBwgNlLhmiEdEE5ViYb02ffw4ignHNHa5IBtPjmbKstmtKa8X6C35iWwK4HaqvrzG9w==}
+  hono@4.12.14:
+    resolution: {integrity: sha512-am5zfg3yu6sqn5yjKBNqhnTX7Cv+m00ox+7jbaKkrLMRJ4rAdldd1xPd/JzbBWspqaQv6RSTrgFN95EsfhC+7w==}
     engines: {node: '>=16.9.0'}
 
   is-arrayish@0.3.2:
@@ -1102,25 +1102,25 @@ snapshots:
   '@esbuild/win32-x64@0.25.9':
     optional: true
 
-  '@hono/node-server@1.19.2(hono@4.9.7)':
+  '@hono/node-server@1.19.2(hono@4.12.14)':
     dependencies:
-      hono: 4.9.7
+      hono: 4.12.14
 
-  '@hono/swagger-ui@0.5.2(hono@4.9.7)':
+  '@hono/swagger-ui@0.5.2(hono@4.12.14)':
     dependencies:
-      hono: 4.9.7
+      hono: 4.12.14
 
-  '@hono/zod-openapi@1.1.0(hono@4.9.7)(zod@4.1.8)':
+  '@hono/zod-openapi@1.1.0(hono@4.12.14)(zod@4.1.8)':
     dependencies:
       '@asteasolutions/zod-to-openapi': 8.1.0(zod@4.1.8)
-      '@hono/zod-validator': 0.7.2(hono@4.9.7)(zod@4.1.8)
-      hono: 4.9.7
+      '@hono/zod-validator': 0.7.2(hono@4.12.14)(zod@4.1.8)
+      hono: 4.12.14
       openapi3-ts: 4.5.0
       zod: 4.1.8
 
-  '@hono/zod-validator@0.7.2(hono@4.9.7)(zod@4.1.8)':
+  '@hono/zod-validator@0.7.2(hono@4.12.14)(zod@4.1.8)':
     dependencies:
-      hono: 4.9.7
+      hono: 4.12.14
       zod: 4.1.8
 
   '@img/sharp-darwin-arm64@0.33.5':
@@ -1359,7 +1359,7 @@ snapshots:
 
   help-me@5.0.0: {}
 
-  hono@4.9.7: {}
+  hono@4.12.14: {}
 
   is-arrayish@0.3.2: {}
 
